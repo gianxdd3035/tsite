@@ -1,0 +1,65 @@
+.a1 {
+    color: rgb(68, 68, 255);
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.dvbt {
+    margin-top: 200px;
+    margin-left: 200px;
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 30% 30% 30% / 30% 30% 30% ;
+    
+}
+.a1:hover {
+    color: blue;
+    text-decoration: none;
+}
+.dvbt:hover {
+    transition: all 1s ;
+    background-color: rgb(8, 8, 235);
+}
+.dvmn {
+    background-color: chartreuse;
+    margin-left: 800px;
+    margin-top: 100px;
+    width: 100px;
+    height: 40px;
+    border-radius: 15% 15% 15% 15% / 15% 15% 15% 15% ;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.dvmn:hover > .dvmn1 {
+    display: block;
+    height: 80px;
+    width: 120px;
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: 95% 5% 95% 5% / 5% 95% 5% 95%  ;
+    margin-left: 27%;
+}
+.dvmn1 {
+    display: none;
+}
+.a2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.a3 {
+    font-size: 0.83rem;
+    display: block;
+    margin-left: 4px;
+    text-decoration: none;   
+}
+.a3:hover {
+    text-decoration: none;
+}
+.a2:hover {
+    text-decoration: none;
+}
